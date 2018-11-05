@@ -1,0 +1,92 @@
+/*
+# Crop Canvas
+
+Minimal style
+*/
+
+/*
+## Layout
+*/
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+    font: 1rem/1.5 sans-serif;
+}
+
+body {
+    padding: 2rem;
+    margin: 0;
+}
+main {
+    position: relative;
+    /* box */
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    /* typo */
+    text-align: center;
+    /* look */
+    background-color: #fff;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
+}
+.container {
+    position: relative;
+}
+
+h1 {
+    /* box */
+    margin: -2rem -2rem 2rem;
+    padding: 2rem;
+    /* look */
+    background-color: darkslategrey;
+    color: #fff;
+}
+
+/*
+## Bouton
+*/
+button {
+    /* box */
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    /* typo */
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2rem;
+    /* look */
+    cursor: pointer;
+    background: #36731f;
+    color: #fff;
+}
+button:hover {
+    opacity: 0.85;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+/*
+## Canvas
+*/
+canvas {
+    border: 1px solid #333;
+}
+.canvas-container {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
+
+/*
+## Utils
+*/
+
+.align-right {
+    text-align: right;
+}
+.hide {
+    display: none;
+}
